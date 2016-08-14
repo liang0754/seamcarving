@@ -11,6 +11,8 @@ import java.io.File;
 import java.io.IOException;
 import javax.imageio.ImageIO;
 
+import javax.swing.*;
+
 
 public class vertical_img {
 
@@ -20,9 +22,9 @@ public class vertical_img {
 		int N = 50;	// number of seams want to remove
 		
 		// set file path
-		String rawImageFilePath="./2.jpg";
-		String energyImageFilePath="./21.jpg";
-		String outputImageFilePath="./22.jpg";
+		String rawImageFilePath="./1.jpg";
+		String energyImageFilePath="./energy.jpg";
+		String outputImageFilePath="./output.jpg";
 		
 		// reading the input image
 		System.out.println("Reading input image...");
