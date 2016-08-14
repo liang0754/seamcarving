@@ -22,7 +22,7 @@ public class vertical_img {
 		int N = 50;	// number of seams want to remove
 		
 		// set file path
-		String rawImageFilePath="./1.jpg";
+		String rawImageFilePath="./2.jpg";
 		String energyImageFilePath="./energy.jpg";
 		String outputImageFilePath="./output.jpg";
 		
